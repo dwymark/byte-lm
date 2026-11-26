@@ -1,8 +1,4 @@
-**Who wrote this?** *The model's design and the analysis of what it computes are Daniel Wymark's. Claude Code (claude-fable-5-2) wrote the code, the figures and this page from that design, and reran every check reported below.*
-
----
-
-# The one-byte transformer
+# byte-lm: the one-byte transformer
 
 A complete, working transformer language model whose entire set of weights is 8 bits: the byte `0xBE`.
 
