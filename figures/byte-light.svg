@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 574" width="360" height="574" role="img">
+<title>The eight weights of the model</title>
+<desc>The byte 0xBE written as eight bits, each bit labelled with the weight it stores.</desc>
+<rect width="360" height="574" rx="12" fill="#fcfcfb"/>
+<text x="16.0" y="30.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">The whole model:</text>
+<rect x="16.0" y="42.0" width="26.0" height="30.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="29.0" y="63.0" font-size="17" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<rect x="46.0" y="42.0" width="26.0" height="30.0" rx="5" fill="none" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="59.0" y="63.0" font-size="17" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#0b0b0b">0</text>
+<rect x="76.0" y="42.0" width="26.0" height="30.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="89.0" y="63.0" font-size="17" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<rect x="106.0" y="42.0" width="26.0" height="30.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="119.0" y="63.0" font-size="17" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<rect x="136.0" y="42.0" width="26.0" height="30.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="149.0" y="63.0" font-size="17" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<rect x="166.0" y="42.0" width="26.0" height="30.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="179.0" y="63.0" font-size="17" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<rect x="196.0" y="42.0" width="26.0" height="30.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="209.0" y="63.0" font-size="17" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<rect x="226.0" y="42.0" width="26.0" height="30.0" rx="5" fill="none" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="239.0" y="63.0" font-size="17" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#0b0b0b">0</text>
+<text x="268.0" y="63.0" font-size="17" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="start" fill="#0b0b0b">= 0xBE</text>
+<text x="16.0" y="94.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">Bit 1 stores the weight +1, bit 0 stores −1.</text>
+<text x="16.0" y="128.0" font-size="12" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">EMBEDDINGS</text>
+<text x="106.0" y="128.0" font-size="12" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">how each bit of text is written down</text>
+<rect x="16.0" y="138.0" width="328.0" height="40.0" rx="8" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<rect x="24.0" y="144.0" width="26.0" height="28.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="37.0" y="164.0" font-size="16" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<text x="60.0" y="163.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">+1</text>
+<text x="92.0" y="155.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">token 0</text>
+<text x="92.0" y="171.0" font-size="12" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">a 0 in the text is written as +1</text>
+<rect x="16.0" y="182.0" width="328.0" height="40.0" rx="8" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<rect x="24.0" y="188.0" width="26.0" height="28.0" rx="5" fill="none" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="37.0" y="208.0" font-size="16" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#0b0b0b">0</text>
+<text x="60.0" y="207.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">−1</text>
+<text x="92.0" y="199.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">token 1</text>
+<text x="92.0" y="215.0" font-size="12" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">a 1 in the text is written as −1</text>
+<text x="16.0" y="250.0" font-size="12" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">ATTENTION</text>
+<text x="97.8" y="250.0" font-size="12" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">how the model looks back at history</text>
+<rect x="16.0" y="260.0" width="328.0" height="40.0" rx="8" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<rect x="24.0" y="266.0" width="26.0" height="28.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="37.0" y="286.0" font-size="16" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<text x="60.0" y="285.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">+1</text>
+<text x="92.0" y="277.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">Q  query</text>
+<text x="92.0" y="293.0" font-size="12" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">what the latest bit looks for</text>
+<rect x="16.0" y="304.0" width="328.0" height="40.0" rx="8" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<rect x="24.0" y="310.0" width="26.0" height="28.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="37.0" y="330.0" font-size="16" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<text x="60.0" y="329.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">+1</text>
+<text x="92.0" y="321.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">K  key</text>
+<text x="92.0" y="337.0" font-size="12" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">how each earlier bit answers</text>
+<rect x="16.0" y="348.0" width="328.0" height="40.0" rx="8" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<rect x="24.0" y="354.0" width="26.0" height="28.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="37.0" y="374.0" font-size="16" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<text x="60.0" y="373.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">+1</text>
+<text x="92.0" y="365.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">V  value</text>
+<text x="92.0" y="381.0" font-size="12" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">what a bit says when listened to</text>
+<rect x="16.0" y="392.0" width="328.0" height="40.0" rx="8" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<rect x="24.0" y="398.0" width="26.0" height="28.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="37.0" y="418.0" font-size="16" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<text x="60.0" y="417.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">+1</text>
+<text x="92.0" y="409.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">O  output</text>
+<text x="92.0" y="425.0" font-size="12" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">how the result is written back</text>
+<text x="16.0" y="460.0" font-size="12" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">MLP</text>
+<text x="48.6" y="460.0" font-size="12" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">a single on-or-off switch</text>
+<rect x="16.0" y="470.0" width="328.0" height="40.0" rx="8" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<rect x="24.0" y="476.0" width="26.0" height="28.0" rx="5" fill="#0b0b0b" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="37.0" y="496.0" font-size="16" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#fcfcfb">1</text>
+<text x="60.0" y="495.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">+1</text>
+<text x="92.0" y="487.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">up</text>
+<text x="92.0" y="503.0" font-size="12" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">feeds the switch</text>
+<rect x="16.0" y="514.0" width="328.0" height="40.0" rx="8" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<rect x="24.0" y="520.0" width="26.0" height="28.0" rx="5" fill="none" stroke="#0b0b0b" stroke-width="1.5"/>
+<text x="37.0" y="540.0" font-size="16" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#0b0b0b">0</text>
+<text x="60.0" y="539.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">−1</text>
+<text x="92.0" y="531.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">down</text>
+<text x="92.0" y="547.0" font-size="12" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">what the switch subtracts when on</text>
+</svg>

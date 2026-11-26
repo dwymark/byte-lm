@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 452" width="360" height="452" role="img">
+<title>The tipping point</title>
+<desc>After seven 1s and a 0 the single 0 outweighs the 1s and the model predicts 0. After eight 1s and a 0 the 1s outweigh it and the model predicts 1.</desc>
+<rect width="360" height="452" rx="12" fill="#fcfcfb"/>
+<text x="16.0" y="30.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">Seven 1s, then a 0</text>
+<rect x="16.0" y="40.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="29.5" y="58.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="47.0" y="40.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="60.5" y="58.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="78.0" y="40.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="91.5" y="58.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="109.0" y="40.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="122.5" y="58.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="140.0" y="40.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="153.5" y="58.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="171.0" y="40.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="184.5" y="58.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="202.0" y="40.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="215.5" y="58.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="233.0" y="40.0" width="27.0" height="27.0" rx="6" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+<text x="246.5" y="58.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">0</text>
+<text x="16.0" y="94.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">the 0 pulls   1 × 2.72 = 2.72</text>
+<rect x="16.0" y="100.0" width="261.0" height="14.0" rx="4" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+<text x="16.0" y="134.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">the 1s pull   7 × 0.37 = 2.58</text>
+<rect x="16.0" y="140.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="51.3" y="140.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="86.6" y="140.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="121.9" y="140.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="157.3" y="140.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="192.6" y="140.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="227.9" y="140.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<line x1="277.0" y1="94.0" x2="277.0" y2="160.0" stroke="#0b0b0b" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<rect x="16.0" y="170.0" width="190.0" height="40.0" rx="10" fill="#f1f0ec" stroke="#2a78d6" stroke-width="2"/>
+<rect x="24.0" y="177.0" width="26.0" height="26.0" rx="6" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+<text x="37.0" y="194.9" font-size="15.6" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">0</text>
+<text x="58.0" y="195.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">the 0 wins: predict 0</text>
+<text x="16.0" y="252.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">Eight 1s, then a 0</text>
+<rect x="16.0" y="262.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="29.5" y="280.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="47.0" y="262.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="60.5" y="280.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="78.0" y="262.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="91.5" y="280.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="109.0" y="262.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="122.5" y="280.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="140.0" y="262.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="153.5" y="280.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="171.0" y="262.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="184.5" y="280.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="202.0" y="262.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="215.5" y="280.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="233.0" y="262.0" width="27.0" height="27.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="246.5" y="280.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="264.0" y="262.0" width="27.0" height="27.0" rx="6" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+<text x="277.5" y="280.6" font-size="16.2" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">0</text>
+<text x="16.0" y="316.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">the 0 pulls   1 × 2.72 = 2.72</text>
+<rect x="16.0" y="322.0" width="261.0" height="14.0" rx="4" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+<text x="16.0" y="356.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">the 1s pull   8 × 0.37 = 2.94</text>
+<rect x="16.0" y="362.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="51.3" y="362.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="86.6" y="362.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="121.9" y="362.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="157.3" y="362.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="192.6" y="362.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="227.9" y="362.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<rect x="263.2" y="362.0" width="33.3" height="14.0" rx="4" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<line x1="277.0" y1="316.0" x2="277.0" y2="382.0" stroke="#0b0b0b" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<rect x="16.0" y="392.0" width="190.0" height="40.0" rx="10" fill="#f1f0ec" stroke="#eb6834" stroke-width="2"/>
+<rect x="24.0" y="399.0" width="26.0" height="26.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="37.0" y="416.9" font-size="15.6" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<text x="58.0" y="417.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">the 1s win: predict 1</text>
+</svg>

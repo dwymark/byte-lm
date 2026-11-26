@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 662" width="360" height="662" role="img">
+<title>One forward pass, step by step</title>
+<desc>The bits 1 1 0 pass through embedding, attention, a residual add, the MLP and the output, which predicts 0.</desc>
+<rect width="360" height="662" rx="12" fill="#fcfcfb"/>
+<rect x="16.0" y="16.0" width="328.0" height="76.0" rx="10" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<circle cx="40" cy="40" r="12" fill="#0b0b0b"/>
+<text x="40.0" y="45.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle" fill="#fcfcfb">1</text>
+<text x="62.0" y="45.0" font-size="15" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">Read</text>
+<text x="28.0" y="66.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">The text arrives as bits. The</text>
+<text x="28.0" y="82.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">latest bit is the one on the right.</text>
+<rect x="246.0" y="26.0" width="26.0" height="26.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="259.0" y="43.9" font-size="15.6" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="276.0" y="26.0" width="26.0" height="26.0" rx="6" fill="#eb6834" stroke="none" stroke-width="1.5"/>
+<text x="289.0" y="43.9" font-size="15.6" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">1</text>
+<rect x="306.0" y="26.0" width="26.0" height="26.0" rx="6" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+<text x="319.0" y="43.9" font-size="15.6" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">0</text>
+<line x1="40.0" y1="96.0" x2="40.0" y2="120.0" stroke="#52514e" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M35.0 115.0 L40.0 122.0 L45.0 115.0" fill="none" stroke="#52514e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="16.0" y="126.0" width="328.0" height="76.0" rx="10" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<circle cx="40" cy="150" r="12" fill="#0b0b0b"/>
+<text x="40.0" y="155.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle" fill="#fcfcfb">2</text>
+<text x="62.0" y="155.0" font-size="15" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">Embed</text>
+<text x="28.0" y="176.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">Write each 0 as +1</text>
+<text x="28.0" y="192.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">and each 1 as −1.</text>
+<text x="332.0" y="155.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="end" fill="#0b0b0b">−1  −1  +1</text>
+<line x1="40.0" y1="206.0" x2="40.0" y2="230.0" stroke="#52514e" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M35.0 225.0 L40.0 232.0 L45.0 225.0" fill="none" stroke="#52514e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="58.0" y="208.0" width="172.0" height="22.0" rx="11" fill="none" stroke="#b9b8b2" stroke-width="1"/>
+<text x="144.0" y="223.0" font-size="11.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle" fill="#52514e">norm: keep only the sign</text>
+<rect x="16.0" y="236.0" width="328.0" height="76.0" rx="10" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<circle cx="40" cy="260" r="12" fill="#0b0b0b"/>
+<text x="40.0" y="265.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle" fill="#fcfcfb">3</text>
+<text x="62.0" y="265.0" font-size="15" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">Attention</text>
+<text x="28.0" y="286.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">Average the history. Bits that match</text>
+<text x="28.0" y="302.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">the latest bit count about 7 times more.</text>
+<text x="332.0" y="265.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="end" fill="#0b0b0b">+0.57</text>
+<line x1="40.0" y1="316.0" x2="40.0" y2="340.0" stroke="#52514e" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M35.0 335.0 L40.0 342.0 L45.0 335.0" fill="none" stroke="#52514e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="16.0" y="346.0" width="328.0" height="76.0" rx="10" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<circle cx="40" cy="370" r="12" fill="#0b0b0b"/>
+<text x="40.0" y="375.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle" fill="#fcfcfb">4</text>
+<text x="62.0" y="375.0" font-size="15" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">Add</text>
+<text x="28.0" y="396.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">Add that average to the</text>
+<text x="28.0" y="412.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">latest bit&#x27;s own number.</text>
+<text x="332.0" y="375.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="end" fill="#0b0b0b">+1.57</text>
+<line x1="40.0" y1="426.0" x2="40.0" y2="450.0" stroke="#52514e" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M35.0 445.0 L40.0 452.0 L45.0 445.0" fill="none" stroke="#52514e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="58.0" y="428.0" width="172.0" height="22.0" rx="11" fill="none" stroke="#b9b8b2" stroke-width="1"/>
+<text x="144.0" y="443.0" font-size="11.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle" fill="#52514e">norm: keep only the sign</text>
+<rect x="16.0" y="456.0" width="328.0" height="76.0" rx="10" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<circle cx="40" cy="480" r="12" fill="#0b0b0b"/>
+<text x="40.0" y="485.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle" fill="#fcfcfb">5</text>
+<text x="62.0" y="485.0" font-size="15" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">MLP switch</text>
+<text x="28.0" y="506.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">If the number is positive, subtract 1.</text>
+<text x="28.0" y="522.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">If it is negative, leave it alone.</text>
+<text x="332.0" y="485.0" font-size="14" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="end" fill="#0b0b0b">+0.57</text>
+<line x1="40.0" y1="536.0" x2="40.0" y2="560.0" stroke="#52514e" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M35.0 555.0 L40.0 562.0 L45.0 555.0" fill="none" stroke="#52514e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="58.0" y="538.0" width="172.0" height="22.0" rx="11" fill="none" stroke="#b9b8b2" stroke-width="1"/>
+<text x="144.0" y="553.0" font-size="11.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle" fill="#52514e">norm: keep only the sign</text>
+<rect x="16.0" y="566.0" width="328.0" height="76.0" rx="10" fill="#f1f0ec" stroke="none" stroke-width="1.5"/>
+<circle cx="40" cy="590" r="12" fill="#0b0b0b"/>
+<text x="40.0" y="595.0" font-size="13" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle" fill="#fcfcfb">6</text>
+<text x="62.0" y="595.0" font-size="15" font-weight="700" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#0b0b0b">Output</text>
+<text x="28.0" y="616.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">Positive means the next bit is 0,</text>
+<text x="28.0" y="632.0" font-size="12.5" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="start" fill="#52514e">negative means 1. Confidence: 88%.</text>
+<text x="298.0" y="595.0" font-size="13" font-weight="400" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="end" fill="#52514e">next:</text>
+<rect x="306.0" y="576.0" width="26.0" height="26.0" rx="6" fill="#2a78d6" stroke="none" stroke-width="1.5"/>
+<text x="319.0" y="593.9" font-size="15.6" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle" fill="#ffffff">0</text>
+</svg>
