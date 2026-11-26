@@ -68,7 +68,8 @@ def forward(tokens, w):
     attended = w["O"] * sum(a * w["V"] * h for a, h in zip(attention, normed))
 
     after_attention = stream[-1] + attended
-    hidden = max(0.0, w["up"] * rms_norm(after_attention))
+    mlp_in = rms_norm(after_attention)
+    hidden = max(0.0, w["up"] * mlp_in)
     after_mlp = after_attention + w["down"] * hidden
 
     y = rms_norm(after_mlp)
@@ -78,12 +79,15 @@ def forward(tokens, w):
 
     return {
         "embeddings": stream,
+        "normed": normed,
         "scores": scores,
         "attention": attention,
         "attended": attended,
         "after_attention": after_attention,
+        "mlp_in": mlp_in,
         "hidden": hidden,
         "after_mlp": after_mlp,
+        "final": y,
         "logits": logits,
         "probs": probs,
     }
@@ -151,12 +155,15 @@ def cmd_trace(args, w):
     row = lambda values: " ".join(f"{v:+.3f}" for v in values)
     print(f"tokens            {'      '.join(map(str, args.bits))}")
     print(f"embeddings        {row(t['embeddings'])}")
+    print(f"norm before attn  {row(t['normed'])}")
     print(f"attention scores  {row(t['scores'])}")
     print(f"attention weights {row(t['attention'])}")
     print(f"attention output  m = {t['attended']:+.4f}")
     print(f"residual add      x = {t['after_attention']:+.4f}")
+    print(f"norm before MLP   {t['mlp_in']:+.0f}")
     print(f"MLP hidden unit   {t['hidden']:.0f}")
     print(f"after MLP         x = {t['after_mlp']:+.4f}")
+    print(f"norm before out   y = {t['final']:+.0f}")
     print(f"logits (0, 1)     {row(t['logits'])}")
     print(f"P(next = 0), P(next = 1) = {t['probs'][0]:.4f}, {t['probs'][1]:.4f}")
 
